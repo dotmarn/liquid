@@ -1100,6 +1100,14 @@ video {
     margin-top: 0px;
   }
 
+  .lg\:mb-32{
+    margin-bottom: 8rem;
+  }
+
+  .lg\:mb-24{
+    margin-bottom: 6rem;
+  }
+
   .lg\:flex{
     display: flex;
   }
@@ -1208,6 +1216,11 @@ video {
   .xl\:px-24{
     padding-left: 6rem;
     padding-right: 6rem;
+  }
+
+  .xl\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 }
 
