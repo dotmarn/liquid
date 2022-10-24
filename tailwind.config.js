@@ -7,7 +7,8 @@ module.exports = {
     theme: {
         fontFamily: {
             'Monts': ['Montserrat', 'sans-serif'],
-            'Karla': ['Karla', 'sans-serif']
+            'Karla': ['Karla', 'sans-serif'],
+            'Sans': ['Open Sans', 'sans-serif']
         },
         extend: {
             colors: {
