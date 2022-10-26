@@ -698,10 +698,6 @@ video {
   width: 4rem;
 }
 
-.w-12{
-  width: 3rem;
-}
-
 .w-4{
   width: 1rem;
 }
@@ -876,26 +872,17 @@ video {
   text-align: center;
 }
 
-.font-Karla{
-  font-family: Karla, sans-serif;
+.font-Sans{
+  font-family: Open Sans, sans-serif;
 }
 
 .font-Monts{
   font-family: Montserrat, sans-serif;
 }
 
-.font-Sans{
-  font-family: Open Sans, sans-serif;
-}
-
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-xl{
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .text-xs{
@@ -1076,11 +1063,6 @@ video {
     line-height: 2.5rem;
   }
 
-  .md\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
   .md\:text-sm{
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -1163,6 +1145,16 @@ video {
          column-gap: 3rem;
   }
 
+  .lg\:gap-x-24{
+    -moz-column-gap: 6rem;
+         column-gap: 6rem;
+  }
+
+  .lg\:gap-x-20{
+    -moz-column-gap: 5rem;
+         column-gap: 5rem;
+  }
+
   .lg\:space-y-0 > :not([hidden]) ~ :not([hidden]){
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -1173,18 +1165,6 @@ video {
     --tw-space-x-reverse: 0;
     margin-right: calc(1.25rem * var(--tw-space-x-reverse));
     margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .lg\:space-x-8 > :not([hidden]) ~ :not([hidden]){
-    --tw-space-x-reverse: 0;
-    margin-right: calc(2rem * var(--tw-space-x-reverse));
-    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .lg\:space-x-10 > :not([hidden]) ~ :not([hidden]){
-    --tw-space-x-reverse: 0;
-    margin-right: calc(2.5rem * var(--tw-space-x-reverse));
-    margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .lg\:space-x-14 > :not([hidden]) ~ :not([hidden]){
@@ -1221,6 +1201,21 @@ video {
   .lg\:px-24{
     padding-left: 6rem;
     padding-right: 6rem;
+  }
+
+  .lg\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .lg\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .lg\:px-12{
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .lg\:text-5xl{
