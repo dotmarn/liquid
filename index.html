@@ -13,7 +13,7 @@
 
 <body>
     <!-- Navbar Starts Here -->
-    <nav class="fixed w-full z-50 top-0 bg-[#121212]" id="header">
+    <nav class="fixed w-full z-50 top-0 bg-white" id="header">
         <div class="py-3 px-6 md:px-1 md:py-4 mx-auto">
             <div class="flex justify-between md:justify-around">
                 <div class="text-white font-Sans">
@@ -79,7 +79,7 @@
             <section class="text-gray-800 text-center py-8 lg:py-16">
                 <h2 class="text-3xl font-bold mb-12 lg:mb-24 font-Sans" data-aos="flip-down">We provide the support needed to stand up and scale your business <br> from 0-1 and 1-100</h2>
 
-                <div class="grid md:grid-cols-3 xl:grid-cols-3 gap-x-6 lg:gap-xl-12 lg:mb-6" data-aos="fade-up">
+                <div class="grid lg:grid-cols-3 gap-x-6 lg:gap-x-24 lg:mb-6 lg:px-12" data-aos="fade-up">
                     <div class="mb-12 lg:mb-0">
                         <img src="/dist/images/solution/1.png" class="rounded-full mx-auto shadow-lg mb-4 border-4 border-yellow-300" alt="" style="max-width: 100px" />
 
@@ -102,10 +102,8 @@
 
                 </div>
 
-                <div class="grid grid-cols-1 lg:grid-cols-4 gap-x-6 lg:gap-xl-12" data-aos="fade-up">
-                    <div>
-
-                    </div>
+                <div class="grid grid-cols-1 lg:grid-cols-4 gap-x-6 lg:gap-x-20" data-aos="fade-up">
+                    <div></div>
 
                     <div class="mb-12 lg:mb-0">
                         <img src="/dist/images/solution/4.png" class="rounded-full mx-auto shadow-lg mb-4 border-4 border-yellow-300" alt="" style="max-width: 100px" />
@@ -245,7 +243,7 @@
                 <div class="block bg-white">
                     <div class="flex flex-wrap items-center">
                         <div class="grow-0 shrink-0 basis-auto block w-full lg:flex lg:w-6/12 xl:w-4/12">
-                            <img src="https://mdbootstrap.com/img/new/ecommerce/vertical/012.jpg" alt="" class="w-full" />
+                            <img src="/dist/images/join.png" alt="" class="w-full" />
                         </div>
                         <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
                             <div class="px-6 py-12 md:px-12">
@@ -387,10 +385,8 @@
     document.addEventListener("scroll", function () {
         scrollpos = window.scrollY;
         if (scrollpos > 10) {
-            header.classList.add("bg-white");
             header.classList.add("shadow");
         } else {
-            header.classList.remove("bg-white");
             header.classList.remove("shadow");
         }
     });
