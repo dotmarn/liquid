@@ -738,17 +738,13 @@ video {
   justify-content: space-between;
 }
 
-.gap-y-8{
-  row-gap: 2rem;
+.gap-y-3{
+  row-gap: 0.75rem;
 }
 
 .gap-x-6{
   -moz-column-gap: 1.5rem;
        column-gap: 1.5rem;
-}
-
-.gap-y-3{
-  row-gap: 0.75rem;
 }
 
 .space-y-5 > :not([hidden]) ~ :not([hidden]){
@@ -793,9 +789,9 @@ video {
   border-color: rgb(107 114 128 / var(--tw-border-opacity));
 }
 
-.bg-\[\#121212\]{
+.bg-white{
   --tw-bg-opacity: 1;
-  background-color: rgb(18 18 18 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-yellow-400{
@@ -803,9 +799,9 @@ video {
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
-.bg-white{
+.bg-\[\#121212\]{
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: rgb(18 18 18 / var(--tw-bg-opacity));
 }
 
 .bg-gray-100{
@@ -1014,10 +1010,6 @@ video {
     display: flex;
   }
 
-  .md\:grid-cols-3{
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
   .md\:items-center{
     align-items: center;
   }
@@ -1115,12 +1107,12 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .lg\:grid-cols-4{
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
   .lg\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .lg\:flex-col{
@@ -1144,11 +1136,6 @@ video {
          column-gap: 1.25rem;
   }
 
-  .lg\:gap-x-12{
-    -moz-column-gap: 3rem;
-         column-gap: 3rem;
-  }
-
   .lg\:gap-x-24{
     -moz-column-gap: 6rem;
          column-gap: 6rem;
@@ -1157,6 +1144,11 @@ video {
   .lg\:gap-x-20{
     -moz-column-gap: 5rem;
          column-gap: 5rem;
+  }
+
+  .lg\:gap-x-12{
+    -moz-column-gap: 3rem;
+         column-gap: 3rem;
   }
 
   .lg\:space-y-0 > :not([hidden]) ~ :not([hidden]){
@@ -1197,29 +1189,24 @@ video {
     padding-bottom: 0.5rem;
   }
 
+  .lg\:px-12{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
   .lg\:px-16{
     padding-left: 4rem;
     padding-right: 4rem;
   }
 
+  .lg\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .lg\:px-24{
     padding-left: 6rem;
     padding-right: 6rem;
-  }
-
-  .lg\:px-4{
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .lg\:px-8{
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .lg\:px-12{
-    padding-left: 3rem;
-    padding-right: 3rem;
   }
 
   .lg\:text-5xl{
@@ -1244,10 +1231,6 @@ video {
 
   .xl\:w-8\/12{
     width: 66.666667%;
-  }
-
-  .xl\:grid-cols-3{
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .xl\:px-48{
